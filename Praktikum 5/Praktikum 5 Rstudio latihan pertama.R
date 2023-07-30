@@ -1,0 +1,5 @@
+vania5 = read.delim("clipboard") 
+View(vania5) 
+str(vania5) 
+mean(vania5$Volume) 
+t.test(vania5$Volume, mu=10) 
