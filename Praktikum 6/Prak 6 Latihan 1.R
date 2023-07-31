@@ -1,0 +1,7 @@
+summary(iris) 
+head(iris) 
+by(iris$Petal.Length, iris$Species, summary) 
+mean(iris$Sepal.Length) 
+var(iris$Sepal.Length) 
+boxplot(iris$Petal.Length) 
+boxplot(Petal.Length~Species,data=iris,main="Petal.Length",xlab="Species",ylab="Length")   

@@ -1,0 +1,8 @@
+hist(iris$Petal.Length) 
+hist(iris$Sepal.Width) 
+hist(iris$Sepal.Width[iris$Species=="setosa"])
+hist(iris$Sepal.Width[iris$Species=="versicolor"]) 
+d=density(iris$Petal.Length)  
+plot(d) 
+d=density(iris$Sepal.Width[iris$Species=="versicolor"]) 
+plot(d) 
